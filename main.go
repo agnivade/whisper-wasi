@@ -18,7 +18,7 @@ import (
 	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
 )
 
-//go:embed libmain_pr.wasm
+//go:embed binary.wasm
 var wasm []byte
 
 func main() {
